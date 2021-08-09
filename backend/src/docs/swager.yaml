@@ -204,7 +204,7 @@ paths:
                 type: object
                 $ref: '#/components/schemas/Race'
         '404':
-          description: Race based on id is doesn't exist
+          description: Race based on ID doesn't exist
           content:
             application/json:
               schema:
@@ -231,7 +231,7 @@ paths:
               $ref: '#/components/schemas/Race'
       responses:
         '200':
-          description: Car has been updated successfully
+          description: Race has been updated successfully
           content:
             application/json:
               schema:
